@@ -11,7 +11,6 @@
   inputs.src-mccache-v0_2_0.ref   = "refs/tags/v0.2.0";
   inputs.src-mccache-v0_2_0.owner = "abbeymart";
   inputs.src-mccache-v0_2_0.repo  = "mccache-nim";
-  inputs.src-mccache-v0_2_0.dir   = "";
   inputs.src-mccache-v0_2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

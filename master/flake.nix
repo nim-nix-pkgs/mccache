@@ -11,7 +11,6 @@
   inputs.src-mccache-master.ref   = "refs/heads/master";
   inputs.src-mccache-master.owner = "abbeymart";
   inputs.src-mccache-master.repo  = "mccache-nim";
-  inputs.src-mccache-master.dir   = "";
   inputs.src-mccache-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
